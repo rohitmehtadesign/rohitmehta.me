@@ -15,7 +15,11 @@ body {
     line-height: 1.68;
     border-top:solid 0.3125em #dcdcdc;
     background: #fff;
-    font-family: georgia, serif;
+    /*font-family: georgia, serif;*/
+    font-family: 'Merriweather', serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
 }
 
 ::-moz-selection {
@@ -64,19 +68,20 @@ textarea {
    ========================================================================== */
 
 /* ==== containers ==== */
-.main-wrapper{width:100%; max-width:41.25em; margin:0 auto;}
+.main-wrapper{width:100%; max-width:39.375em; margin:0 auto; padding: 6.5em 0 0 0}
 
 /* ==== Headers ==== */
-.name{font-size: 1.25em; color: #434343; font-weight:100; margin:1em 0 0.75em; text-align: center; line-height: 0.6;}
-.current{font-size: 0.75em; color: #717171; text-align: center; font-weight: normal;}
+.name{font-size: 2.125em; color: #585858; font-weight:100; margin:1em 0 0.75em; text-align: left; line-height: 0.6; border-bottom: dotted 1px #aeaeae; padding: 0 0 0.3em 0}
+.current{font-size: 0.75em; color: #717171; text-align: left; font-weight: normal;}
 
 .heading-level-1{font-size:1.5em; color:#43a7b9; font-weight: 400;}
 
+.intro-text{width: 32.5em; font-size: 1.125em; color: #585858; line-height: 2.65em; font-weight: 300; margin: 3.25em 0;}
 
 /* ==== Navigation ==== */
-.main-nav{width:100%; margin: 1em auto 9em; text-align: center;}
-.main-nav ul li{ display: inline-block; margin: 0 0.3125em;}
-.main-nav ul li a{ color:#888; padding: 0.1875em 0.25em; text-decoration: none; font-weight: 100;}
+.main-nav{width:100%; margin: 1em auto 9em; text-align: left;}
+.main-nav ul li{ display: inline-block; margin: 0 ;}
+.main-nav ul li a{ color:#585585; padding: 0.1875em 1em 0.1875em 0; text-decoration: none; font-weight: 300;}
 .main-nav ul li a.selected, .main-nav ul li a:hover, .main-nav ul li a:active{color: #43a7b9;}
 
 /*==== Article ====*/
